@@ -1,4 +1,4 @@
-a='Failed to get copypasta :('
+a='Failed to get kopyamakarna :('
 Z=' '
 Y=max
 P=print
@@ -15,7 +15,7 @@ class U:
 	def get(Y):
 		X='url';W='title';V=None;U='1';T='random';F='children';A='data'
 		for b in range(10):
-			L='copypasta';M=1;N='all';H=T;J={'Upgrade-Insecure-Requests':U,'Dnt':U,'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36','Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','Sec-Fetch-Site':'same-origin','Sec-Fetch-Mode':'navigate','Sec-Fetch-User':'?1','Sec-Fetch-Dest':'document','Referer':'https://www.reddit.com/u/Useful-Shoe914','Accept-Encoding':'gzip, deflate, br','Accept-Language':'en-GB,en-US;q=0.9,en;q=0.8'}
+			L='kopyamakarna';M=1;N='all';H=T;J={'Upgrade-Insecure-Requests':U,'Dnt':U,'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36','Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','Sec-Fetch-Site':'same-origin','Sec-Fetch-Mode':'navigate','Sec-Fetch-User':'?1','Sec-Fetch-Dest':'document','Referer':'https://www.reddit.com/u/Useful-Shoe914','Accept-Encoding':'gzip, deflate, br','Accept-Language':'en-GB,en-US;q=0.9,en;q=0.8'}
 			def P(subreddit,count):
 				try:A=f"https://www.reddit.com/r/{subreddit}/{H}.json?count={count}&t={N}";B=I.get(A,headers=J,timeout=10);return B.json()
 				except O:return V
