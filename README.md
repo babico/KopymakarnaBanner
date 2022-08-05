@@ -1,23 +1,23 @@
-# Copypasta Banner
-Tired of your terminal being too fucking boring?
-Then this is for you.
+# Kopyamakarna Banner
+Terminalin monotonluğundan bıktınız mı?
+Tam size göre.
 ## Examples:
 ![3.png](imgs/1.png)
 ![2.png](imgs/2.png)
 ![1.png](imgs/3.png)
 ## How to setup:
-**YOUR TERMINAL NEEDS TO SUPPORT PRINTING BRAILLE CHARACTERS**
+**TERMİNALİNİZİN BRAILLE KARAKTERLERİNİN YAZDIRILMASINI DESTEKLEMESİ GEREKMEKTEDİR**
 
-**You can use the minified version to make it run faster**
+**Daha hızlı çalışmasını sağlamak için küçültülmüş sürümü kullanabilirsiniz.**
 
-Install requests libary
+Gerekli kütüphaneleri yükleyin
 ```
 pip install requests
 ```
-Just add this to your .bashrc file located in your home directory:
+Ardından, bunu ana dizininizde bulunan .bashrc dosyanıza eklemeniz yeterlidir:
 ```
 python BANNER_LOCATION/banner.py
 ```
-replace BANNER_LOCATION with wherever you want to store this script.
+BANNER_LOCATION'ı bu komut dosyasını saklamak istediğiniz yerle değiştirin.
 
-And you're done :p
+Ve bitti :p
