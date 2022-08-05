@@ -15,13 +15,13 @@ class CopyPasta():
 
     def get(self) -> str:
         """
-        Gets a random copypasta from r/copypasta
+        Gets a random copypasta from r/kopyamakarna
 
         :returns str: The copypasta text
         """
 
         for _ in range(10): # max 10 tries
-            subreddit = "copypasta"
+            subreddit = "kopyamakarna"
             count = 1
             timeframe = "all"
             listing = "random"
@@ -122,7 +122,7 @@ class CopyPasta():
             except Exception:
                 continue
 
-        return "Failed to get copypasta :("
+        return "Failed to get kopyamakarna :("
 
 
 def makeblock(x) -> str:
@@ -147,11 +147,11 @@ def makeblock(x) -> str:
 
 
 if __name__ == "__main__":
-    text = CopyPasta() # gets a random copypasta
+    text = CopyPasta() # gets a random kopyamakarna
     copypasta = text.get()
 
     if not copypasta:
-        copypasta = "Failed to get copypasta :("
+        copypasta = "Failed to get kopyamakarna :("
 
     banner = makeblock(choice(AsciiArts.ascii_art))
     ascii_art1 = [len(x) for x in banner.split("\n")]
